@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+}
+
+.logo{
+  font-size: 1.2rem;
+}
+
+.navlinks{
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  display: none;
+}
+
+.navlinks a{
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.hero{
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(135deg, #222, #444);
+  color: white;
+}
+
+.hero h1{
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p{
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.cta-btn{
+  text-decoration: none;
+  background: white;
+  color: #222;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+section{
+  margin-bottom: 4rem;
+}
+
+h2{
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #eee;
+  display: inline-block;
+  color: #222;
+}
+
+main{
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+section{
+  margin-bottom: 2.5rem;
+}
+
+.stacklist{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.stacklist li{
+  background: #e0e0e0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  flex-direction: column;
+}
+
+footer{
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+
+
