@@ -27,7 +27,6 @@ body{
   list-style: none;
   display: flex;
   gap: 1.5rem;
-  display: none;
 }
 
 .navlinks a{
