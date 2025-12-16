@@ -16,15 +16,11 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: blue;
+  background-color: #ffffff;
   border-bottom: 1px solid #eee;
   position: sticky;
   top: 0;
   z-index: 1000;
-}
-
-.logo{
-  font-size: 1.2rem;
 }
 
 .navlinks{
@@ -36,8 +32,16 @@ body{
 
 .navlinks a{
   text-decoration: none;
-  color: #333;
+  color: #222;
   font-weight: 500;
+}
+
+.navlinks a:hover{
+  color: #007BFF;
+}
+
+.logo{
+  font-size: 1.2rem;
 }
 
 .hero{
