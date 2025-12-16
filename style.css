@@ -16,7 +16,7 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: #ffffff;
+  background-color: blue;
   border-bottom: 1px solid #eee;
   position: sticky;
   top: 0;
